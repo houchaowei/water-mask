@@ -1,7 +1,7 @@
 /*
- * @Author: chaow.hou001
+ * @Author: houchaowei
  * @Date: 2021-04-21 12:56:32
- * @LastEditTime: 2021-04-26 13:46:01
+ * @LastEditTime: 2021-04-29 11:31:40
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /my-component-library/src/components/FaceRecognition/FaceRecognition.tsx

@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  title: "React UI 组件库",
+  title: "业务组件库",
   files: ["./src/**/*.{md,markdown,mdx}"],
   ignore: [
     "readme.md",
