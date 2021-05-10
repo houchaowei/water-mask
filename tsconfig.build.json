@@ -5,8 +5,10 @@
     "target": "es5",
     "declaration": true,
     "jsx": "react",
-    "moduleResolution":"Node",
+    "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "noUnusedLocals": true
   },
   "include": [
     "src"

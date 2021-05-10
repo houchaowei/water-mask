@@ -1,27 +1,20 @@
-## React业务组件库
+
+## React组件
 
 ### 安装
 ```bash
-npm install @bk/ddd-business-component
+npm install water-mask-page
 ```
 
-### 业务组件
-#### WaterMark 脱敏水印
+#### WaterMaskPage 页面脱敏水印
 ```js
-import { WaterMark } from '@bk/ddd-business-component';
-import '@bk/ddd-business-component/dist/index.css';
+import { WaterMaskPage } from 'water-mask-page';
+import 'water-mask-page/dist/index.css';
 
-<WaterMark color="red" fontSize={15} width={100} height={100}>
+<WaterMaskPage color="red" fontSize={15} width={100} height={100} content={`脱敏内容`}>
   <div style={{ height: '200px', width: '200px' }}>
     这里是需要脱敏背景的内容区域
   </div>
-</WaterMark>
+</WaterMaskPage>
 ```
 
-
-#### FaceRecognition 人脸识别在H5的应用
-```js
-import { FaceRecognition } from '@bk/ddd-business-component';
-import '@bk/ddd-business-component/dist/index.css';
-<FaceRecognition />
-```

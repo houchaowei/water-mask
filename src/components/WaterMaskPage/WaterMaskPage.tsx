@@ -1,11 +1,3 @@
-/*
- * @Author: houchaowei
- * @Date: 2021-04-29 11:41:58
- * @LastEditTime: 2021-04-29 11:45:53
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /my-component-library/src/components/WaterMark/WaterMark.tsx
- */
 import React, { ReactChild, useEffect } from "react";
 
 interface IProps {
@@ -23,7 +15,7 @@ interface IProps {
   textBaseline: 'alphabetic' | 'bottom' | 'hanging' | 'ideographic' | 'middle' | 'top',
 }
 
-function WaterMark(props: IProps) {
+function WaterMaskPage(props: IProps) {
   const {
     children,
   } = props;
@@ -107,7 +99,7 @@ function WaterMark(props: IProps) {
   );
 };
 
-WaterMark.defaultProps = {
+WaterMaskPage.defaultProps = {
   children: (
     <div style={{ width: '100px', height: '200px' }}>
       欢迎使用脱敏水印！
@@ -123,4 +115,4 @@ WaterMark.defaultProps = {
   textBaseline: 'middle',
 }
 
-export default WaterMark;
+export default WaterMaskPage;
