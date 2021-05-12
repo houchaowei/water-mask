@@ -1,6 +1,6 @@
 {
   "name": "water-mask-page",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "水印，页面水印",
   "author": "houchaowei",
   "private": false,
@@ -9,8 +9,6 @@
   "types": "dist/index.d.ts",
   "license": "MIT",
   "keywords": [
-    "Component",
-    "UI",
     "React",
     "Water Mask Page",
     "水印",
