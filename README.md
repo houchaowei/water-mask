@@ -6,7 +6,11 @@
 npm install water-mask-page
 ```
 
-#### WaterMaskPage 页面脱敏水印
+# WaterMaskPage 页面脱敏水印
+
+## Demo
+[WaterMaskPage 页面脱敏水印]([demo](https://houchaowei.github.io/water-mask/src-components-water-mask-page-water-mask-page/))
+## 使用
 ```js
 import { WaterMaskPage } from 'water-mask-page';
 import 'water-mask-page/dist/index.css';
