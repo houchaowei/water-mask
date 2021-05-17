@@ -4,14 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
-/.docz
+# /.docz
 
 # testing
 /coverage
 
 # production
 /dist
-/.docz
+# /.docz
 
 # misc
 .DS_Store
