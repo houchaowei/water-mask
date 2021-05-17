@@ -1,6 +1,6 @@
 {
   "config": {
-    "title": "组件集合",
+    "title": "组件",
     "description": "水印，页面水印",
     "menu": [],
     "version": "0.0.6",
@@ -89,135 +89,15 @@
   ],
   "props": [
     {
-      "key": "src/index.tsx",
-      "value": []
-    },
-    {
-      "key": "src/components/WaterMaskPage/WaterMaskPage.tsx",
+      "key": ".docz/src/pages/404.js",
       "value": [
         {
-          "tags": {},
           "description": "",
-          "displayName": "WaterMaskPage",
+          "displayName": "NotFound",
           "methods": [],
-          "props": {
-            "fontSize": {
-              "defaultValue": null,
-              "description": "",
-              "name": "fontSize",
-              "declarations": [],
-              "required": false,
-              "type": {
-                "name": "number | undefined"
-              }
-            },
-            "color": {
-              "defaultValue": null,
-              "description": "",
-              "name": "color",
-              "declarations": [],
-              "required": false,
-              "type": {
-                "name": "string | undefined"
-              }
-            },
-            "content": {
-              "defaultValue": null,
-              "description": "",
-              "name": "content",
-              "declarations": [],
-              "required": true,
-              "type": {
-                "name": "string"
-              }
-            },
-            "width": {
-              "defaultValue": null,
-              "description": "",
-              "name": "width",
-              "declarations": [],
-              "required": false,
-              "type": {
-                "name": "number | undefined"
-              }
-            },
-            "height": {
-              "defaultValue": null,
-              "description": "",
-              "name": "height",
-              "declarations": [],
-              "required": true,
-              "type": {
-                "name": "number"
-              }
-            },
-            "opacity": {
-              "defaultValue": null,
-              "description": "",
-              "name": "opacity",
-              "declarations": [],
-              "required": true,
-              "type": {
-                "name": "number"
-              }
-            },
-            "feedHeight": {
-              "defaultValue": null,
-              "description": "",
-              "name": "feedHeight",
-              "declarations": [],
-              "required": false,
-              "type": {
-                "name": "number | undefined"
-              }
-            },
-            "rotate": {
-              "defaultValue": null,
-              "description": "",
-              "name": "rotate",
-              "declarations": [],
-              "required": false,
-              "type": {
-                "name": "number | undefined"
-              }
-            },
-            "zIndex": {
-              "defaultValue": null,
-              "description": "",
-              "name": "zIndex",
-              "declarations": [],
-              "required": false,
-              "type": {
-                "name": "number | undefined"
-              }
-            },
-            "textAlign": {
-              "defaultValue": null,
-              "description": "",
-              "name": "textAlign",
-              "declarations": [],
-              "required": true,
-              "type": {
-                "name": "\"left\" | \"center\" | \"end\" | \"right\" | \"start\""
-              }
-            },
-            "textBaseline": {
-              "defaultValue": null,
-              "description": "",
-              "name": "textBaseline",
-              "declarations": [],
-              "required": true,
-              "type": {
-                "name": "\"middle\" | \"alphabetic\" | \"bottom\" | \"hanging\" | \"ideographic\" | \"top\""
-              }
-            }
-          }
+          "actualName": "NotFound"
         }
       ]
-    },
-    {
-      "key": "src/components/WaterMaskPage/index.ts",
-      "value": []
     }
   ]
 }

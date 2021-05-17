@@ -19,7 +19,7 @@ const config = {
   pathPrefix: '/',
 
   siteMetadata: {
-    title: '组件集合',
+    title: '组件',
     description: '水印，页面水印',
   },
   plugins: [
@@ -71,7 +71,7 @@ const config = {
         eb: 'master',
         'edit-branch': 'master',
         config: '',
-        title: '组件集合',
+        title: '组件',
         description: '水印，页面水印',
         host: 'localhost',
         port: 3333,
