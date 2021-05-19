@@ -5,9 +5,11 @@
 /.pnp
 .pnp.js
 /.docz
+/dist
 
 # testing
 /coverage
+/dist
 
 # production
 /dist
