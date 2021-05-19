@@ -3,7 +3,7 @@
     "title": "组件",
     "description": "水印，页面水印",
     "menu": [],
-    "version": "0.0.6",
+    "version": "0.0.7",
     "repository": null,
     "native": false,
     "themeConfig": {},
@@ -89,13 +89,209 @@
   ],
   "props": [
     {
-      "key": ".docz/src/pages/404.js",
+      "key": "src/index.tsx",
+      "value": []
+    },
+    {
+      "key": "src/components/WaterMaskPage/WaterMaskPage.tsx",
+      "value": [
+        {
+          "tags": {},
+          "description": "",
+          "displayName": "WaterMaskPage",
+          "methods": [],
+          "props": {
+            "fontSize": {
+              "defaultValue": null,
+              "description": "",
+              "name": "fontSize",
+              "declarations": [],
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "color": {
+              "defaultValue": null,
+              "description": "",
+              "name": "color",
+              "declarations": [],
+              "required": false,
+              "type": {
+                "name": "string | undefined"
+              }
+            },
+            "content": {
+              "defaultValue": null,
+              "description": "",
+              "name": "content",
+              "declarations": [],
+              "required": true,
+              "type": {
+                "name": "string"
+              }
+            },
+            "width": {
+              "defaultValue": null,
+              "description": "",
+              "name": "width",
+              "declarations": [],
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "height": {
+              "defaultValue": null,
+              "description": "",
+              "name": "height",
+              "declarations": [],
+              "required": true,
+              "type": {
+                "name": "number"
+              }
+            },
+            "opacity": {
+              "defaultValue": null,
+              "description": "",
+              "name": "opacity",
+              "declarations": [],
+              "required": true,
+              "type": {
+                "name": "number"
+              }
+            },
+            "feedHeight": {
+              "defaultValue": null,
+              "description": "",
+              "name": "feedHeight",
+              "declarations": [],
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "rotate": {
+              "defaultValue": null,
+              "description": "",
+              "name": "rotate",
+              "declarations": [],
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "zIndex": {
+              "defaultValue": null,
+              "description": "",
+              "name": "zIndex",
+              "declarations": [],
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "textAlign": {
+              "defaultValue": null,
+              "description": "",
+              "name": "textAlign",
+              "declarations": [],
+              "required": true,
+              "type": {
+                "name": "\"left\" | \"center\" | \"end\" | \"right\" | \"start\""
+              }
+            },
+            "textBaseline": {
+              "defaultValue": null,
+              "description": "",
+              "name": "textBaseline",
+              "declarations": [],
+              "required": true,
+              "type": {
+                "name": "\"middle\" | \"alphabetic\" | \"bottom\" | \"hanging\" | \"ideographic\" | \"top\""
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/WaterMaskPage/index.ts",
+      "value": []
+    },
+    {
+      "key": "dist/components/WaterMaskPage/WaterMaskPage.js",
       "value": [
         {
           "description": "",
-          "displayName": "NotFound",
+          "displayName": "WaterMaskPage",
           "methods": [],
-          "actualName": "NotFound"
+          "actualName": "WaterMaskPage",
+          "props": {
+            "children": {
+              "defaultValue": {
+                "value": "React.createElement(\"div\", { style: { width: '100px', height: '200px' } }, \"\\u6B22\\u8FCE\\u4F7F\\u7528\\u8131\\u654F\\u6C34\\u5370\\uFF01\")",
+                "computed": true
+              },
+              "required": false
+            },
+            "fontSize": {
+              "defaultValue": {
+                "value": "16",
+                "computed": false
+              },
+              "required": false
+            },
+            "color": {
+              "defaultValue": {
+                "value": "'#999'",
+                "computed": false
+              },
+              "required": false
+            },
+            "opacity": {
+              "defaultValue": {
+                "value": "30",
+                "computed": false
+              },
+              "required": false
+            },
+            "content": {
+              "defaultValue": {
+                "value": "'脱敏水印'",
+                "computed": false
+              },
+              "required": false
+            },
+            "width": {
+              "defaultValue": {
+                "value": "150",
+                "computed": false
+              },
+              "required": false
+            },
+            "height": {
+              "defaultValue": {
+                "value": "100",
+                "computed": false
+              },
+              "required": false
+            },
+            "textAlign": {
+              "defaultValue": {
+                "value": "'left'",
+                "computed": false
+              },
+              "required": false
+            },
+            "textBaseline": {
+              "defaultValue": {
+                "value": "'middle'",
+                "computed": false
+              },
+              "required": false
+            }
+          }
         }
       ]
     }

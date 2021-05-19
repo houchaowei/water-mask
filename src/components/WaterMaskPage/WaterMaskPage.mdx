@@ -7,6 +7,7 @@ weight: 2
 import { Playground, Props } from "docz";
 import WaterMaskPage from "./WaterMaskPage";
 import "../../style/index.scss";
+import Demo from "../../../public/demo.jpg"
 
 # WaterMaskPage
 
@@ -23,6 +24,7 @@ import { WaterMaskPage } from 'water-mask-page';
 
 ### 基础用法
 <Playground>
+  <img src={Demo} />
   <div style={{width:'200px',height:'200px',border:'1px solid red'}}>
     <WaterMaskPage color='red' fontSize={15} width={100} height={100} content='你好'>
       <div style={{height: '200px', width: '200px'}}>这里是需要脱敏背景的内容区域</div>
